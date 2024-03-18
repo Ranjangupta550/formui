@@ -74,7 +74,7 @@ export function Form() {
 
           {/* Team Details */}
           <div className="flex justify-between flex-wrap ">
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="teamName"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -85,16 +85,17 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="collageName"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -105,13 +106,14 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
             <div className="justify-start pt-5   lg:w-2/5 w-full ">
@@ -126,13 +128,14 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
           </div>
@@ -143,7 +146,7 @@ export function Form() {
           </h1>
           <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent mb-8 h-1 w-full" />
           <div className="flex justify-between flex-wrap  ">
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="teamName"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -154,16 +157,18 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
-             disabled:cursor-not-allowed disabled:opacity-50
+             disabled:cursor-not-allowed  disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="collageName"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -174,16 +179,17 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -194,16 +200,17 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -214,16 +221,17 @@ export function Form() {
               required
                 type="email"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -234,16 +242,17 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -254,32 +263,35 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+      <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
               >
-                Admission No. 
+                Admission No.*  (if from GALGOTIAS UNIVERSITY)
               </label>
               <input
+              placeholder="Ex: 23SCSE1111999"
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
           </div>
@@ -290,7 +302,7 @@ export function Form() {
           </h1>
           <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent mb-8 h-1 w-full" />
           <div className="flex justify-between flex-wrap ">
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="teamName"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -301,16 +313,17 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="collageName"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -321,36 +334,18 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
-              <label
-                htmlFor="participants"
-                className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-              >
-                Collage Name <span className="text-red-600 text-base">*</span>
-              </label>
-              <input
-              required
-                type="text"
-                name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
-            file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
-            focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
-             disabled:cursor-not-allowed disabled:opacity-50
-             dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
-             group-hover/input:shadow-none transition duration-400
-             mt-1`}
-              />
-            </div>
-            <div className="lg:w-2/5 w-full">
+           {/* College Name Holder */}
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -361,16 +356,17 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -381,16 +377,17 @@ export function Form() {
               required
                 type="email"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -401,16 +398,17 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -421,16 +419,17 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -438,15 +437,17 @@ export function Form() {
                 Admission No.*  (if from GALGOTIAS UNIVERSITY)
               </label>
               <input
+              placeholder="Ex: 23SCSE1111999"
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
           </div>
@@ -456,7 +457,7 @@ export function Form() {
           </h1>
           <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent mb-8 h-1 w-full" />
           <div className="flex justify-between flex-wrap  ">
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="teamName"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -467,16 +468,17 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="collageName"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -487,36 +489,18 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
-              <label
-                htmlFor="participants"
-                className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-              >
-                Collage Name <span className="text-red-600 text-base">*</span>
-              </label>
-              <input
-              required
-                type="text"
-                name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
-            file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
-            focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
-             disabled:cursor-not-allowed disabled:opacity-50
-             dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
-             group-hover/input:shadow-none transition duration-400
-             mt-1`}
-              />
-            </div>
-            <div className="lg:w-2/5 w-full">
+           {/* College Name Holder */}
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -526,16 +510,17 @@ export function Form() {
               <input
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -546,16 +531,17 @@ export function Form() {
               required
                 type="email"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -566,16 +552,17 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -586,16 +573,17 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -603,15 +591,17 @@ export function Form() {
                 Admission No.*  (if from GALGOTIAS UNIVERSITY)
               </label>
               <input
+              placeholder="Ex: 23SCSE1111999"
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
           </div>
@@ -621,7 +611,7 @@ export function Form() {
           </h1>
           <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent mb-8 h-1 w-full" />
           <div className="flex justify-between flex-wrap ">
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="teamName"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -632,16 +622,17 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="collageName"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -652,36 +643,18 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
-              <label
-                htmlFor="participants"
-                className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-              >
-                Collage Name <span className="text-red-600 text-base">*</span>
-              </label>
-              <input
-              required
-                type="text"
-                name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
-            file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
-            focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
-             disabled:cursor-not-allowed disabled:opacity-50
-             dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
-             group-hover/input:shadow-none transition duration-400
-             mt-1`}
-              />
-            </div>
-            <div className="lg:w-2/5 w-full">
+           {/* College Name Holder */}
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -692,16 +665,17 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -712,16 +686,17 @@ export function Form() {
               required
                 type="email"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -732,16 +707,17 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -752,16 +728,17 @@ export function Form() {
               required
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -769,15 +746,17 @@ export function Form() {
                 Admission No.*  (if from GALGOTIAS UNIVERSITY)
               </label>
               <input
+              placeholder="Ex: 23SCSE1111999"
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
           </div>
@@ -787,7 +766,7 @@ export function Form() {
           </h1>
           <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent mb-8 h-1 w-full" />
           <div className="flex justify-between flex-wrap ">
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="teamName"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -797,16 +776,17 @@ export function Form() {
               <input
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="collageName"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -816,35 +796,18 @@ export function Form() {
               <input
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
-              <label
-                htmlFor="participants"
-                className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-              >
-                Collage Name
-              </label>
-              <input
-                type="text"
-                name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
-            file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
-            focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
-             disabled:cursor-not-allowed disabled:opacity-50
-             dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
-             group-hover/input:shadow-none transition duration-400
-             mt-1`}
-              />
-            </div>
-            <div className="lg:w-2/5 w-full">
+            {/* College Name Holder */}
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -854,16 +817,17 @@ export function Form() {
               <input
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -873,16 +837,17 @@ export function Form() {
               <input
                 type="email"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -892,16 +857,17 @@ export function Form() {
               <input
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -911,16 +877,17 @@ export function Form() {
               <input
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -928,15 +895,17 @@ export function Form() {
                 Admission No.*  (if from GALGOTIAS UNIVERSITY)
               </label>
               <input
+              placeholder="Ex: 23SCSE1111999"
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
           </div>
@@ -946,7 +915,7 @@ export function Form() {
           </h1>
           <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent mb-8 h-1 w-full" />
           <div className="flex justify-between flex-wrap ">
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="teamName"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -956,16 +925,17 @@ export function Form() {
               <input
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="collageName"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -975,35 +945,18 @@ export function Form() {
               <input
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
-              <label
-                htmlFor="participants"
-                className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-              >
-                Collage Name
-              </label>
-              <input
-                type="text"
-                name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
-            file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
-            focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
-             disabled:cursor-not-allowed disabled:opacity-50
-             dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
-             group-hover/input:shadow-none transition duration-400
-             mt-1`}
-              />
-            </div>
-            <div className="lg:w-2/5 w-full">
+            {/* College Name Holder */}
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor=""
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -1013,16 +966,17 @@ export function Form() {
               <input
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -1032,16 +986,17 @@ export function Form() {
               <input
                 type="email"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -1051,16 +1006,17 @@ export function Form() {
               <input
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+            <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -1070,16 +1026,17 @@ export function Form() {
               <input
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
-            <div className="lg:w-2/5 w-full">
+      <div className="lg:w-2/5  pb-2 w-full">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -1087,16 +1044,17 @@ export function Form() {
                 Admission No.*  (if from GALGOTIAS UNIVERSITY)
               </label>
               <input
-              placeholder="If not from Galgotias University, write NA"
+              placeholder="Ex: 23SCSE1111999"
                 type="text"
                 name=""
-                className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
+                className={`flex w-full h-10  bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
             file:text-sm file:font-medium placeholder:text-neutral-400 placeholder-text-neutral-600
             focus-visible:outline-none focus-visible:ring-[2px] focus-visible:ring-neutral-600
              disabled:cursor-not-allowed disabled:opacity-50
              dark:shadow-[0px_0px_1px_1px_var(--neutral-700)]
              group-hover/input:shadow-none transition duration-400
-             mt-1`}
+             mt-1
+             border-b border-zinc-700  focus:border-b-2 focus:border-bottom-outline-color  focus:outline-none peer `}
               />
             </div>
           </div>
