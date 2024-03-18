@@ -3,7 +3,14 @@ import React from "react";
 
 export function Form() {
   return (
-    <div className="lg:p-10 py-2 bg-gray-100">
+    <div className="sky bg-center  w-auto h-3000 overflow-hidden">
+    <div className="stars"></div>
+    <div className="stars1"></div>
+    <div className="stars2"></div>
+    <div className="shooting-stars absolute bottom-0 right-0"></div>
+    <div className="shooting-stars absolute bottom-10 right-32"></div>
+    <div className="shooting-stars absolute bottom-20 right-72"></div>
+    <div className="lg:p-10 bg-zinc-900">
       <div className="lg:w-10/12 w-[96%] mx-auto rounded-none md:rounded-2xl sm:rounded-xl p-4 md:p-8 shadow-input bg-white dark:bg-black ">
         <h2 className="font-bold text-3xl text-center text-neutral-800 dark:text-[#E9E3D5] border-gray-300 border-b-2 w-full pb-2 ">
           Register for Dexterix 4.0
@@ -107,7 +114,7 @@ export function Form() {
              mt-1`}
               />
             </div>
-            <div className=" lg:w-2/5 w-full ">
+            <div className="justify-start pt-5   lg:w-2/5 w-full ">
               <label
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -261,7 +268,7 @@ export function Form() {
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
               >
-                Admission No. <br />* if from GALGOTIAS UNIVERSITY
+                Admission No. 
               </label>
               <input
                 type="text"
@@ -428,7 +435,7 @@ export function Form() {
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
               >
-                Admission No. <br />* if from GALGOTIAS UNIVERSITY
+                Admission No.*  (if from GALGOTIAS UNIVERSITY)
               </label>
               <input
                 type="text"
@@ -593,7 +600,7 @@ export function Form() {
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
               >
-                Admission No. <br />* if from GALGOTIAS UNIVERSITY
+                Admission No.*  (if from GALGOTIAS UNIVERSITY)
               </label>
               <input
                 type="text"
@@ -759,7 +766,7 @@ export function Form() {
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
               >
-                Admission No. <br />* if from GALGOTIAS UNIVERSITY
+                Admission No.*  (if from GALGOTIAS UNIVERSITY)
               </label>
               <input
                 type="text"
@@ -918,7 +925,7 @@ export function Form() {
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
               >
-                Admission No. <br />* if from GALGOTIAS UNIVERSITY
+                Admission No.*  (if from GALGOTIAS UNIVERSITY)
               </label>
               <input
                 type="text"
@@ -1077,9 +1084,10 @@ export function Form() {
                 htmlFor="participants"
                 className="text-sm font-medium text-[#f9f5ed] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
               >
-                Admission No. <br />* if from GALGOTIAS UNIVERSITY
+                Admission No.*  (if from GALGOTIAS UNIVERSITY)
               </label>
               <input
+              placeholder="If not from Galgotias University, write NA"
                 type="text"
                 name=""
                 className={`flex w-full h-10 border-none bg-zinc-800 text-white shadow-input rounded-md px-3 py-2 text-sm  file:border-0 file:bg-transparent
@@ -1092,6 +1100,7 @@ export function Form() {
               />
             </div>
           </div>
+          <br></br>
           <button
             className="bg-gradient-to-br relative group/btn from-zinc-900 to-zinc-900 block mt-2 bg-zinc-800 w-full text-white rounded-md h-10 font-medium shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
             type="submit"
@@ -1101,12 +1110,17 @@ export function Form() {
           </button>
         </form>
       </div>
+      <div className="stars"></div>
+    <div className="stars1"></div>
+    <div className="stars2"></div>
+    </div>
     </div>
   );
 }
 
 const BottomGradient = () => {
   return (
+    
     <>
       <span className="group-hover/btn:opacity-100 block transition duration-500 opacity-0 absolute h-px w-full -bottom-px inset-x-0 bg-gradient-to-r from-transparent via-cyan-500 to-transparent" />
       <span className="group-hover/btn:opacity-100 blur-sm block transition duration-500 opacity-0 absolute h-px w-1/2 mx-auto -bottom-px inset-x-10 bg-gradient-to-r from-transparent via-indigo-500 to-transparent" />
